@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="RF-styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html"><img src="/images/logo.png" alt="Recipes.find Logo"></a>
+        </div>
+        <h1 class="page-title">Find your Recipe!</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Discover personalized recipes</h2>
+            <p>Enter the ingredients you have on hand, and we'll find the perfect recipe for you!</p>
+        </section>
+        <section class="search">
+            <input type="text" id="ingredients" placeholder="Enter ingredients...">
+            <button id="submit-ingredients">Find Recipes</button>
+        </section>
+        <section id="recipe-results">
+            <div id="overlay" class="overlay">
+                <div class="overlay-content"></div>
+              </div>
+            <!-- Recipe results will be displayed here -->
+        </section>
+    </main>
+    <div id="overlay">
+        <div class="overlay-content"></div>
+      </div>
+      
+</body>
+</html>
