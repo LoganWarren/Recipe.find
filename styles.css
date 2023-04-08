@@ -123,7 +123,9 @@ footer {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
-
+.warning{
+    text-align: center;
+}
 
 
 /* Info Sections */
