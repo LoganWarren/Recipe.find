@@ -1,6 +1,6 @@
 # Recipe Finder
 
-Recipe Finder is a web application created for the Bon Hacketit hackathon event, designed to help users find recipes based on the ingredients they have on hand. By simply entering the ingredients they have available, users will be presented with a variety of recipe suggestions. Clicking on a recipe card will reveal detailed instructions on how to prepare the meal.
+Recipe Finder is a web application created for the Bon Hackétit hackathon event, designed to help users find recipes based on the ingredients they have on hand. By simply entering the ingredients they have available, users will be presented with a variety of recipe suggestions. Clicking on a recipe card will reveal detailed instructions on how to prepare the meal.
 ## Features
 
 - Easy-to-use interface
