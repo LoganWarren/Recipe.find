@@ -27,7 +27,7 @@ Start searching for recipes by entering the ingredients you have on hand
 
 ### Usage
 
-Link: https://loganwarren.github.io/Recipe.find/index.html 
+Link: https://loganwarren.github.io/Recipes.find/index.html 
 
 Enter the ingredients you have available in the input field (e.g., "chicken, tomatoes, onions")
 
