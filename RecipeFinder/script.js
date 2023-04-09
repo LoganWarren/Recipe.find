@@ -75,7 +75,6 @@ function toggleRecipeDetails(event) {
       </div>
       ${recipeDetails.innerHTML}
     `;
-    // Display the overlay
     overlay.style.display = "flex";
     // Add event listener to close the overlay when clicked outside the content area
     overlay.addEventListener("click", (event) => {
