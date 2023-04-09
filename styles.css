@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #DCDCDC;
 }
 
 a {
@@ -21,7 +22,7 @@ ul {
 
 /* Header and Navigation */
 header {
-    background-color: #f4f4f4;
+    background-color: #DCDCDC;
     padding: 0.rem 0; /* Decrease the padding value */
 }
 
@@ -64,6 +65,8 @@ nav {
     color: #fff;
     text-align: center;
     padding: 4rem 0;
+    border: 2px solid #000; 
+    border-radius: 5px; 
 }
 
 .hero h1 {
@@ -92,10 +95,17 @@ nav {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
+    
 }
+.cta:hover {
+    background-color: #fff; 
+    color: #0d8ee2; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);     
 
-/* Add styles for other sections here */
-
+  }
 /* Footer */
 footer {
     background-color: #f4f4f4;
@@ -109,6 +119,7 @@ footer {
     margin: 0;
     grid-column: 2;
     justify-self: center;
+    
 }
 
 
@@ -129,22 +140,45 @@ footer {
 
 
 /* Info Sections */
+.info-section, .about {
+    border: 2px solid #000; 
+    border-radius: 5px; 
+  }
 .info-sections {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    padding: 2rem 0;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 2rem; 
+  }
+  
+  .about {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+  }
+  .about:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-5px); 
+    background-color: #e6f2ff;
   }
   
   .info-section {
+    width: 45%; 
     background-color: #f4f4f4;
-    border-radius: 10px;
-    width: 45%;
     padding: 2rem;
-    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    text-decoration: none;
-    color: #333;
+    cursor: pointer;
+    background-color: #ffffff;
   }
   
   .info-section h2 {
@@ -154,8 +188,9 @@ footer {
   }
   
   .info-section:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    background-color: #e6f2ff;
   }
 
   .image-examples {
@@ -171,3 +206,8 @@ footer {
     max-width: 45%;
     height: auto;
   }
+
+  .hero, .info-section, .about {
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
